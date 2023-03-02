@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Chakra+Petch:wght@300&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.side{
+    height: 100vh;
+    
+    background-color: rebeccapurple;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.side nav{
+    height: 100vh;
+    padding: 30px;
+}
+.side nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: #808080;
+    width: 100vw;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+}
+.info{
+    /* background-color: rgb(11, 11, 11); */
+    height: 90vh;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.hi{
+    font-size: 50px;
+    /* margin-left:250px; */
+    
+}
+.intro{
+    align-items: center;
+}
+.hi{
+    margin-left: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+    font-family: 'Chakra Petch', sans-serif;
+    
+    margin-left: 50;
+}
+.name{
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 100px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.about{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: aliceblue;
+    font: size 100px;
+    font-family: 'Chakra Petch', sans-serif;
+
+    
+}
+.pic{
+    margin-top: 50px;
+    
+}
+.description{
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.buttons{
+    
+    margin-top: 50px;
+    justify-content: space-around;
+    
+    display: flex;
+
+}
+.buttons button {
+    background-color: #b081e4;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform ease 1s 
+}
+    
+ 
+.buttons button:hover{
+    transform: scale(1.2);
+    color: rebeccapurple;
+    background-color: aliceblue;
+}
+.buttons button a{
+    text-decoration: none;
+    color:rgb(6, 0, 12);
+}
+
+
+
+.side nav li a{
+    text-decoration: none;
+    color: black;
+}
+.side nav li a:hover{
+    
+    color: aliceblue;
+}
+form h1{
+    font-size: 80px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.form{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mb-3{
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#whatsap{
+    background-color: #25D366;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform ease 1s 
+}
+#whatsap:hover{
+    transform: scale(1.2);
+    color: #25D366;
+    background-color: aliceblue;
+}
+.skill{
+    font-size: 40px;
+    width: 200px;
+    height: 6px;
+    background-color: #b081e4;
+    
+}
+.skillset{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 50px;
+}
+.main h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+}
+.list p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 25px;
+
+}
+.list{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.side {
+	-webkit-animation: side 2s linear infinite alternate both;
+	        animation: side 2s linear infinite alternate both;
+}
+@-webkit-keyframes side {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes side{
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  .skill {
+    -webkit-animation: skill 2s linear infinite alternate both;
+            animation: skill 2s linear infinite alternate both;
+  }
+  @-webkit-keyframes skill {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    @keyframes skill{
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+
+ 
+.name {
+	-webkit-animation: name 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: name 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.name {
+	-webkit-animation: name 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: name 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes name {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  .main {
+	-webkit-animation: main 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: main 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+@keyframes name {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  .main {
+	-webkit-animation: main 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: main 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+ @-webkit-keyframes main {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  @keyframes main {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+
+@media (max-width:1422px) {
+ 
+ .side{
+  transform: translate(-284px, 0px);
+  position: absolute;
+}
+
+  
+
+
+}
+
+  
+  
